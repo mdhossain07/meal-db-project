@@ -1,0 +1,19 @@
+.mealDetails-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.mealDetails-container img {
+  width: 500px;
+  border: 2px solid slateblue;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .mealDetails-container {
+    flex-direction: column;
+  }
+}
